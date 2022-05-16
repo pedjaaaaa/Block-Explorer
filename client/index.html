@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>My Block Explorer</title>
+    <script type="module" src="index.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.1/css/dataTables.bootstrap5.min.css">
+    <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" language="javascript"
+        src="https://cdn.datatables.net/1.11.1/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" language="javascript"
+        src="https://cdn.datatables.net/1.11.1/js/dataTables.bootstrap5.min.js"></script>
+</head>
+
+<body>
+    <div class="components">
+        <div class="wallet">
+            <input type="text" id="public-address" placeholder="Search by Address" />
+            <div id="balance">
+                0
+            </div>
+        </div>
+
+        <div class="send">
+            <h1>Latest Block</h1>
+            <div id="block-information" </div>
+            </div>
+        </div>
+        <div class="blocks">
+            <h1>Blocks</h1>
+            <div class="container" id="last-blocks" style="width:60%;">
+                    <!-- <thead>
+                        <tr>
+                            <th scope="col">Number</th>
+                            <th scope="col">Hash</th>
+                            <th scope="col">Timestamp</th>
+                            <th scope="col">Gas Used</th>
+                            <th scope="col">Gas Limit</th>
+                            <th scope="col">Num Txns</th>
+                            <th scope="col">Miner Address</th>
+                        </tr>
+                    </thead> -->
+            </div>
+        </div>
+</body>
+
+</html>
